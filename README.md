@@ -16,8 +16,8 @@
 ### FEATURES or Whats included in the dotfiles:
 -  By default, Catpuccin Mocha Theme for Hyprland is enabled
 
-### Miscellaneous (Optional):
--  Themess: `Catppuccin Mocha GTK Theme` or `Mojave GTK Theme`
+### Miscellaneous (Optional): (Note... needed for switching between light and dark mode)
+-  Themes: `Catppuccin Mocha GTK Theme` or `Mojave GTK Theme`
 -  Cursor themes: `Catppuccin Cursors` or `McMojave Cursors`
 -  Icon Themess: `Shiny Icons (Dark /Light` or `McMojave Circle Icon`
 
