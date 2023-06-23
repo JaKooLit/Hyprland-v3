@@ -1,4 +1,3 @@
-<br>
 <h3 align = "center"> Arch Hyprland Dotfiles and Script Installer v3</h3>
 <br>
 ### Components:
@@ -12,6 +11,11 @@
 - Menu : [`Wofi`](https://hg.sr.ht/~scoopta/wofi)
 
 - FIle Manager: [`Thunar`](https://docs.xfce.org/xfce/thunar/start) (Optional)
+
+### Arch-Hyprland install script
+-The script is mainly for Arch Linux minimal installation, however, can also be used for any existing arch based linux. It can also be used for Arch Linux with Hyprland installed. Script is design to create a backup of your config files (~/.config) and will check if packages are already installed and will skip if it detects that package is already
+
+-your previous hyprland configs will be backed up so you can always copy it over to new dotfiles
 
 ### FEATURES or Whats included in the dotfiles:
 -  By default, Catpuccin Mocha Theme for Hyprland is enabled
