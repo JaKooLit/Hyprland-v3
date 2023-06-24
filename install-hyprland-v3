@@ -361,7 +361,7 @@ if [[ $theme =~ ^[Yy]$ ]]; then
             		;;
         		m|M)
             		printf "${NOTE} Installing Mojave Theme packages...\n"
-            		for THEME2 in mojave-gtk-theme-git mcmojave-cursors-git mcmojave-circle-icon-theme ; do
+            		for THEME2 in mojave-gtk-theme mcmojave-cursors mcmojave-circle-icon-theme ; do
                 		install_package "$THEME2" 2>&1 | tee -a "$LOG"
                 		if [ $? -ne 0 ]; then
                     		echo -e "\e[1A\e[K${ERROR} - $THEME2 install had failed, please check the install.log"
