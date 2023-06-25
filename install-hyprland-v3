@@ -205,7 +205,7 @@ else
 	printf "\n"
 	printf "\n"
     printf "\n${NOTE} Kindly take note nvidia-dkms support from GTX 900 series and newer. If you have nvidia drivers already installed, it maybe wise to choose n in here\n"  
-	read -n1 -rp "${CAT} Would you like to install nvidia-dkms driver, nvidia-settings and nvidia-utils? and all other nvidia-stuff(y/n) " nvidia_driver
+	read -n1 -rp "${CAT} Would you like to install nvidia-dkms driver, nvidia-settings and nvidia-utils? and all other nvidia-stuff (y/n) " nvidia_driver
         echo
         	if [[ $nvidia_driver =~ ^[Yy]$ ]]; then
 		printf "${YELLOW} Installing Nvidia packages...\n"
