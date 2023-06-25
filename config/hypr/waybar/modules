@@ -310,7 +310,7 @@
   "format": "  ",
   "tooltip": false,
   "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
-  "on-click-right": "~/.config/hypr/scripts/ChangeBlur"
+  "on-click-right": "~/.config/hypr/scripts/ChangeBlur.sh"
 },
 
 "custom/updater":{
