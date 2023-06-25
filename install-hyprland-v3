@@ -539,6 +539,7 @@ if [[ $ROG =~ ^[Yy]$ ]]; then
     done
     printf " Activating ROG services...\n"
     sudo systemctl enable --now supergfxd 2>&1 | tee -a "$LOG"
+    sed -i '22s/#//' config/hypr/configs/Execs.conf
 else
     printf "${NOTE} Asus ROG software support not installed..\n"
 fi
@@ -666,7 +667,7 @@ else
   printf "${WARN} Ensure to type in the proper keyboard layout, e.g., uk, de, pl, etc.\n"
   read -p "Please enter the correct keyboard layout: " new_layout
   # Update the 'kb_layout=' line with the correct layout in the file
-  awk -v new_layout="$new_layout" '/kb_layout/ {$0 = "  kb_layout=us," new_layout} 1' config/hypr/hyprland.conf > temp.conf
+  awk -v new_layout="$new_layout" '/kb_layout/ {$0 = "  kb_layout=" new_layout} 1' config/hypr/hyprland.conf > temp.conf
   mv temp.conf config/hypr/hyprland.conf
 fi
 printf "\n"
