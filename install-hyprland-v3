@@ -349,12 +349,12 @@ if [[ $theme =~ ^[Yy]$ ]]; then
             		done
             		# Shiny-Dark-Icons-themes
             		mkdir -p ~/.icons
-			cd assets
+			        cd assets
             		tar -xf Shiny-Dark-Icons.tar.gz -C ~/.icons
-			tar -xf Shiny-Light-Icons.tar.gz -C ~/.icons
-			cd ..
-			sed -i '9,12s/#//' config/hypr/scripts/DarkLight.sh
-			sed -i '9,12s/#//' config/hypr/scripts/DarkLight-swaybg.sh
+			        tar -xf Shiny-Light-Icons.tar.gz -C ~/.icons
+			        cd ..
+			        sed -i '9,12s/#//' config/hypr/scripts/DarkLight.sh
+			        sed -i '9,12s/#//' config/hypr/scripts/DarkLight-swaybg.sh
             		sed -i '23s/#//' config/hypr/hyprland.conf
             		cp -f 'config/hypr/waybar/style/dark-styles/style-dark-cat.css' 'config/hypr/waybar/style/style-dark.css'
             		break
@@ -368,8 +368,8 @@ if [[ $theme =~ ^[Yy]$ ]]; then
                     		exit 1
                 		fi
             		done
-			sed -i '15,18s/#//' config/hypr/scripts/DarkLight.sh
-			sed -i '15,18s/#//' config/hypr/scripts/DarkLight-swaybg.sh
+			        sed -i '15,18s/#//' config/hypr/scripts/DarkLight.sh
+			        sed -i '15,18s/#//' config/hypr/scripts/DarkLight-swaybg.sh
             		sed -i '24s/#//' config/hypr/hyprland.conf
             		cp -f 'config/hypr/waybar/style/dark-styles/style-dark-mojave.css' 'config/hypr/waybar/style/style-dark.css'
             		break
