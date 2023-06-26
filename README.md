@@ -40,7 +40,7 @@
 - `pamixer` - for volume control notification. 
 - `playerctl` - Keyboard hotkeys multimedia controls
 - `xorg-xwayland` - needed to run some non-wayland app especially games
-- `fonts` - required awesome fonts. AUR and official repo have... else most of the waybar modules wont work. Most of configs here I used Fantasque Sans Mono. I used Cascadia Code Semibold Italic on foot.
+- `fonts` - required awesome fonts. AUR and official repo have... else most of the waybar modules wont work. Most of configs here I used Fantasque Sans Mono.
 - `pipewire` - needed pipewire pipewire-pulse pipewire-alsa
 - `xdg-user-dirs` - by default archinstall script does not install this on "minimal" profile. That is why I have added in script
 
