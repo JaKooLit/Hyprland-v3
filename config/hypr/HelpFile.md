@@ -19,15 +19,16 @@
   Super   Shift   w       *waybar style-change* (middle click on wallpaper   waybar module)
   Super   Ctrl    w       *wallpaper switcher* (click on wallpaper waybar    module)
   
-  right click on update   waybar module  *wallpaper cycle using swaybg* (no animations)
+  - right click on update   waybar module  *wallpaper cycle using swaybg* (no animations)
   
-  To change permanently the wallpaper edit the file in *~/.config/hypr/configs/Execs.conf*
+  - To change permanently the wallpaper edit the file in *~/.config/hypr/configs/Execs.conf*
+  - For a persistent wallpaper after dark-light mode, edit your Execs.conf. Either delete or put # before exec-once=swww query | swww init and delete the # before exec-once = swww init (Lines 6 and 7 on Execs.conf )
   
-  for the wallpaper styles and configurations, you can watch my video about it *https://youtu.be/6ZGzOjMJBe4*
+  - for the wallpaper styles and configurations, you can watch my video about it *https://youtu.be/6ZGzOjMJBe4*
   
-  scripts for wallpaper stuff are located in *~/.config/hypr/scripts* file names `DarkLight.sh` `DarkLight-swaybg.sh` `Wallpaper.sh` `WallpaperSelect.sh` `WaybarStyles.sh` (last one for waybar)
+  - scripts for wallpaper stuff are located in *~/.config/hypr/scripts* file names `DarkLight.sh` `DarkLight-swaybg.sh` `Wallpaper.sh` `WallpaperSelect.sh` `WaybarStyles.sh` (last one for waybar)
 
-  swww is broken if you use fractional scaling
+  - swww is broken if you use fractional scaling. Use swaybg as your wallpaper provider.
 
 # Monitor, executables, keybindings, window rules, 
   files are located in *~/.config/hypr/configs*
