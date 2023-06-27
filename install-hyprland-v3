@@ -680,7 +680,7 @@ read -n1 -rep "${CAT} Would you like to copy config and wallpaper files? (y,n)" 
 if [[ $CFG =~ ^[Yy]$ ]]; then
 
 # check for existing config folders and backup 
-    for DIR in btop cava hypr foot mako swaylock waybar wlogout wofi 
+    for DIR in btop cava foot hypr mako swappy swaylock waybar wlogout wofi 
     do 
         DIRPATH=~/.config/$DIR
         if [ -d "$DIRPATH" ]; then 
@@ -709,6 +709,7 @@ if [[ $CFG =~ ^[Yy]$ ]]; then
     cp -r config/wlogout ~/.config/ || { echo "Error: Failed to copy wlogout config files."; exit 1; } 2>&1 | tee -a "$LOG"
     cp -r config/btop ~/.config/ || { echo "Error: Failed to copy btop config files."; exit 1; } 2>&1 | tee -a "$LOG"
     cp -r config/cava ~/.config/ || { echo "Error: Failed to copy cava config files."; exit 1; } 2>&1 | tee -a "$LOG"
+    cp -r config/swappy ~/.config/ || { echo "Error: Failed to copy swappy config files."; exit 1; } 2>&1 | tee -a "$LOG"
     mkdir -p ~/Pictures/wallpapers
     cp -r wallpapers ~/Pictures/ && { echo "Copy completed!"; } || { echo "Error: Failed to copy wallpapers."; exit 1; } 2>&1 | tee -a "$LOG"
 
