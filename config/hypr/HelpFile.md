@@ -34,16 +34,22 @@
   Keybindings file is located here *~/.config/hypr/configs/Keybinds.conf*
 
 # screenshot may need to hold down the function (`fn`) key. You can change keybinds in *~/.config/hypr/configs/Keybinds.conf* 
-  Super PrintSrc(button)       *full screenshot*
+  Super PrintScr(button)       *full screenshot*
   Super Shift PrintSrc(button) *active window screenshot*         
-  Super CTRL SHIFT PrintSrc    *full screenshot + timer (5s)*
+  Super CTRL SHIFT PrintScr    *full screenshot + timer (5s)*
+  Super Alt PrintScr           *full screenshot + timer (10s)*
+  Super Shift S                *screenshot with swappy*
+
+# clipboard manager (cliphist)
+  Super Alt V   *launch the wofi menu of clipboard manager* 
+    - double click to select the clipboard. And paste as normal
+    - to clean up clipboard manager, launch foot (super enter) then type cliphist wipe
 
 # applications shortcuts
   Super   T		  *file manager* (`thunar`) - if installed
 
     
 # container layout
- 
   Super   Shift   Space       *toggle tiling/floating mode*
   Super   left mouse button   *move window*
   Super   right mouse button  *resize window* (note only in float mode)
