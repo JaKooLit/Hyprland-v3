@@ -1,7 +1,7 @@
 # Welcome to my Hyprland help, and tips and tricks #
 # If you have questions, or need help you can open issue on my github
 # Or you can reach me in or join on Discord that I admin
-# Discord linkhttps://discord.gg/rxHczMSyjn   or you can message me directly on my discord Ja.KooLit
+# Discord link https://discord.gg/rxHczMSyjn   or you can message me directly on my discord. DC user: Ja.KooLit
 # Github page: https://github.com/JaKooLit
 
   Super = Windows Key
