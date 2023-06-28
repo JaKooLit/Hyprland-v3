@@ -9,7 +9,8 @@
 
 ### Whats new with these Hyprland configs?
 - Screenshot with swappy is now introduced
-- Clipboard Manager 
+- Clipboard Manager
+- scripts are renamed but functions are same as previous dotfiles
 
 ### Arch-Hyprland install script
 - NOTE! This is for any GPU. You may think its for nvidia only but its not. More steps are only needed for nvidia.
