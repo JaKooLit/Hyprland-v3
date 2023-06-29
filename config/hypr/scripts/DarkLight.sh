@@ -6,8 +6,8 @@ hypr_config_path="$HOME/.config/hypr"
 
 # Define the GTK themes for light and dark modes
 # Catppuccin
-#light_gtk_theme="Catppuccin-Latte-Standard-Mauve-Light"
-#dark_gtk_theme="Catppuccin-Mocha-Standard-Mauve-Dark"
+#light_gtk_theme="Catppuccin-Latte-Standard-Mauve-light"
+#dark_gtk_theme="Catppuccin-Mocha-Standard-Mauve-dark"
 #light_icon_theme="Shiny-Light-Icons"
 #dark_icon_theme="Shiny-Dark-Icons"
 
