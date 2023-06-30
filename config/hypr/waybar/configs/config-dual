@@ -32,7 +32,7 @@
 	"backlight",
 	"bluetooth",
 	"network",
-	//"custom/updater",
+	"custom/updater",
 	"custom/cycle_wall",
 	"custom/lock", 
 	],

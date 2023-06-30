@@ -37,7 +37,7 @@
 	"pulseaudio",
 	//"wireplumber", 
 	"pulseaudio#microphone",
-	//"custom/updater", 
+	"custom/updater", 
 	"custom/cycle_wall",
 	"custom/power",
 	],
