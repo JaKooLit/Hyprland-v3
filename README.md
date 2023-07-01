@@ -73,6 +73,10 @@
 ### Please note, Only provided are configs. Any Hyprland-related issues to be reported on Hyprland Github
 - a.) Copy / Move files / folders in your ~/.config
 - a.1) by default, no kb_layout set up in ~/.config/hypr/hyprland.conf . It will be set during script install. If you manually copy, ensure to put a value ie, us, gb, pl, es, kr, jp.... etc
+- a.2) by default there are no border color set up in ~/.config/hypr/hyprland.conf . It will be set during script install depending on which theme you select. If you manually copied, ensure to uncomment line 23 (neon color) or line 24 (blueish color) or it will be defaulted to white.
+- a.3) If you manually copied the config in dotfiles, ensure to uncomment Themes and Icons part on the DarkLight.sh script. Which is located in ~/.config/hypr/scripts/ . And copy over the dark style waybar from ~/.config/hypr/waybar/style/dark-styles/ to  ~/.config/hypr/waybar/style/ and rename as style-dark.css or the DarkLight.sh script wont work. 
+-a.4) Extract the icons in assets/ to ~/.icons/
+
 - b.) Copy wallpapers to your ~/Pictures/ or you need to edit the scripts. 
 - c.) if you have azerty keyboard [`this`](https://github.com/swaywm/sway/issues/1460?fbclid=IwAR1C8VcY_wWbGhXvT-5ApjJCQuJoJzhOVor6o5fdn0Nj1c6bD9JXoQAPQIg) might help
 
