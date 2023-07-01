@@ -28,7 +28,7 @@
 -  Icon Themes: `Shiny Icons (Dark /Light` or `McMojave Circle Icon`
 
 ### ✨ Arch Linux quick Installation:
-- A guide to install using the install script:[`Youtube Link`]() 
+- A guide to install using the install script:[`Youtube Link`](https://youtu.be/mbQd0bJQ6a8) 
 - a.) You can install one by one packages above or choose the automatic installer script.
 - b.) If you want to add or edit packages, edit install-hyprland-3 script (lines 280-296). Ensure packages are present on AUR or official else the script will fail.
 - c.) Installation of Asus-ROG-utilities are entirely optional.
