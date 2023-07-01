@@ -2,14 +2,14 @@
 <br>
 
 ### Changes from my previous dot-files
-- Dotfiles are based from my previous Hyprland dots and script is based on my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1)
+- Dotfiles are based on my previous Hyprland dots and script is based on my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1)
 - Improvements on script
--   a.) nvidia-dkms nvidia-utils nvidia-settings libva libva-nvidia-driver-git are optional - This are applicable to those who wanted different different nvidia drivers as nvidia-dkms only support GTX 900 series or newer nvidia GPU's. Older gen need to find a proper nvidia driver for your cards.
+-   a.) nvidia-dkms nvidia-utils nvidia-settings libva libva-nvidia-driver-git are optional - These are applicable to those who wanted different different nvidia drivers as nvidia-dkms only support GTX 900 series or newer nvidia GPU's. Older gen nvidia owners, need to find a proper nvidia driver for your cards.
 -   b.) Optional GTK themes (Catppuccin or MacOS styles) - note that switching dark to light needs GTK themes. However, this is still optional
 
 ### Whats new with these Hyprland configs?
 - Screenshot with swappy is now introduced
-- Clipboard Manager
+- Clipboard Manager (cliphist)
 - scripts are renamed but functions are same as previous dotfiles
 
 ### Arch-Hyprland install script
@@ -20,12 +20,12 @@
 - your previous hyprland configs will be backed up so you can always copy it over to new dotfiles
 
 ### FEATURES or Whats included in the dotfiles:
--  By default, Catpuccin Mocha Theme for Hyprland is enabled
+-  By default, Catppuccin Mocha Theme for Hyprland is enabled
 
 ### Miscellaneous (Optional): (Note... needed for switching between light and dark mode)
 -  Themes: `Catppuccin Mocha GTK Theme` or `Mojave GTK Theme`
 -  Cursor Themes: `Catppuccin Cursors` or `McMojave Cursors`
--  Icon Themes: `Shiny Icons (Dark /Light` or `McMojave Circle Icon`
+-  Icon Themes: `Shiny Icons (Dark and Light` or `McMojave Circle Icon`
 
 ### ✨ Arch Linux quick Installation:
 - A guide to install using the install script:[`Youtube Link`](https://youtu.be/mbQd0bJQ6a8) 
