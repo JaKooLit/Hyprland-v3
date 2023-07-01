@@ -2,7 +2,7 @@
 <br>
 
 ### Changes from my previous dot-files
-- Dotfiles are based from my previous Hyprland dots and script is based on my Hyprland-v2.1 [`Link`](https:github.com/JaKooLit/Hyprland-v2.1)
+- Dotfiles are based from my previous Hyprland dots and script is based on my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1)
 - Improvements on script
 -   a.) nvidia-dkms nvidia-utils nvidia-settings libva libva-nvidia-driver-git are optional - This are applicable to those who wanted different different nvidia drivers as nvidia-dkms only support GTX 900 series or newer nvidia GPU's. Older gen need to find a proper nvidia driver for your cards.
 -   b.) Optional GTK themes (Catppuccin or MacOS styles) - note that switching dark to light needs GTK themes. However, this is still optional
@@ -36,7 +36,7 @@
 
 
 ### Additional Wallpapers
-- More wallpapers can be downloaded from my Hyprland-v2.1 [`Link`](https:github.com/JaKooLit/Hyprland-v2.1/tree/main/wallpapers). Download and copy over to ~/Pictures/
+- More wallpapers can be downloaded from my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1/tree/main/wallpapers). Download and copy over to ~/Pictures/
 
 
 ### ✨ If upgrading from my old Dotfiles 
