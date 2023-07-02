@@ -62,6 +62,7 @@
   Super   Tab             *cycle through workspaces*
 
 # waybar customizations
+  - waybar font too big or too small. Edit the font-size in waybar styles located in ~/.config/hypr/waybar/styles/ . By default, it is set to 100%. After adjusting the GTK font scaling to your liking, edit all the waybar styles. Reduce or increase according to your needs. NOTE that its on percent %. You can also change to px whichever suits you.
   - if you want 12h format instead of 24H format, edit the ~/.config/hypr/waybar/modules look for clock. delete the // and add // or delete the previous one
   - CPU Temperature:
     - a.) to change from deg C to deg F , edit the ~/.config/hypr/waybar/modules look for "temperature". Change the format to "format": "{temperatureF}°F {icon}",
