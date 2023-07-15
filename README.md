@@ -13,6 +13,7 @@
 - scripts are renamed but functions are same as previous dotfiles
 
 ### Arch-Hyprland install script
+- IMPORTANT! DO NOT RUN THIS SCRIPT AS ROOT.
 - NOTE! This is for any GPU. You may think its for nvidia only but its not. More steps are only needed for nvidia.
 - This can be use for Laptop or Desktop.
 - The script is mainly for Arch Linux minimal installation, however, can also be used for any existing arch based linux. It can also be used for Arch Linux with Hyprland installed. Script is design to create a backup of your config files (~/.config) and will check if packages are already installed and will skip if it detects that package is already
