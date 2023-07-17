@@ -1,6 +1,13 @@
 #!/bin/bash
 # https://github.com/JaKooLit
 
+# Check if running as root. If root, script will exit
+if [[ $EUID -eq 0 ]]; then
+	echo "This script should not be executed as root! Exiting......."
+	exit 1
+fi
+
+
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"
 ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
