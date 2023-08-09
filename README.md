@@ -30,11 +30,18 @@
 
 ### ✨ Arch Linux quick Installation:
 - A guide to install using the install script:[`Youtube Link`](https://youtu.be/mbQd0bJQ6a8) 
-- a.) You can install one by one packages above or choose the automatic installer script.
+- a.) You can install one by one packages or choose the automatic installer script.
 - b.) If you want to add or edit packages, edit install-hyprland-3 script (lines 280-296). Ensure packages are present on AUR or official else the script will fail.
 - c.) Installation of Asus-ROG-utilities are entirely optional.
 - d.) Thunar and necessary plugins are entirely optional
 
+### Packages that will be installed when using the install script:
+- yay or paru (will be asked if not installed)
+- NVIDIA GPU (nvidia-dkms, hyprland-nvidia-git nvidia-settings nvidia-utils libva libva-nvidia-driver-git)
+- foot swaybg swaylock-effects wofi wlogout mako grim slurp wl-clipboard cliphist swappy polkit-kde-agent nwg-look-bin swww mousepad pipewire-alsa playerctl
+- qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs mpv python-requests pamixer brightnessctl xdg-user-dirs viewnior mpv network-manager-applet micro cava pavucontrol
+- otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono adobe-source-code-pro-fonts
+- waybar-hyprland-git
 
 ### Additional Wallpapers
 - More wallpapers can be downloaded from my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1/tree/main/wallpapers). Download and copy over to ~/Pictures/
