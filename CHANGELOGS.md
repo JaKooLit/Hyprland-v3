@@ -1,4 +1,8 @@
 ## Changelogs
+### 12 Aug, 2023
+- cleanup hyprland.conf
+- updated Changelayout script
+
 ### Jul 12, 2023
 - disabled clickfinger_behaviour on hyprland.conf to fix the bottom right click on touchpad
 
