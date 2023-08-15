@@ -20,6 +20,9 @@
 
 - your previous hyprland configs will be backed up so you can always copy it over to new dotfiles
 
+### useful tips
+-if you opt to copy dotfiles, you can launch helpfile by pressing super h . Its a helpfile Ive created to assist you with some basic faq's
+
 ### FEATURES or Whats included in the dotfiles:
 -  By default, Catppuccin Mocha Theme for Hyprland is enabled
 
