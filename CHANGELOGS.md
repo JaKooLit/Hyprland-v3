@@ -1,4 +1,8 @@
 ## Changelogs
+
+### 15 Aug, 2023
+- added AppAutoClose.sh. Script to add process to automatically close when not active. Thanks to @U-L-M-S
+
 ### 12 Aug, 2023
 - cleanup hyprland.conf
 - updated Changelayout script
