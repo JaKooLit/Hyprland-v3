@@ -75,6 +75,7 @@
 -   h.) whether to disable wifi powersave
 -   i.) whether to install xdg-desktop-portal-hyprland
 
+
 ### ✨ NVIDIA-Hyprland notes:
 - kindly note, on configs I added all the nvidia variables from Hyprland wiki [`Link`](https://wiki.hyprland.org/Nvidia/) but by default they are not enabled apart from env = WLR_NO_HARDWARE_CURSORS,1. I've had issues like OBS not recording, or intermittent crashing etc, on my laptop. Check the ~/.config/hypr/configs/ENVariables.conf and uncomment one by one to try. You can read through Hyprland-Wiki for some guidance.
 
@@ -90,6 +91,9 @@
 
 - b.) Copy wallpapers to your ~/Pictures/ or you need to edit the scripts. 
 - c.) if you have azerty keyboard [`this`](https://github.com/swaywm/sway/issues/1460?fbclid=IwAR1C8VcY_wWbGhXvT-5ApjJCQuJoJzhOVor6o5fdn0Nj1c6bD9JXoQAPQIg) might help
+
+### notes 
+- change the values of pavucontrol on `~/.config/hypr/configs/WindowRules.conf` . Recommended to move the window manually where you want and then run the command `hyprctl clients` to show the current size and position, as shown in the Assets/PavuExample.jpg
 
 ### ✨ known-issues:
 - [ ] fractional scaling breaks swww. Switch to swaybg as your wallpaper renderer if you use fractional scaling
