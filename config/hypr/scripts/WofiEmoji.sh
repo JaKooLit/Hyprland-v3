@@ -1,10 +1,17 @@
 #!/bin/bash
 
-CONFIG="$HOME/.config/hypr/wofi/Wofi/config"
+# WOFI STYLES
+CONFIG="$HOME/.config/hypr/wofi/WofiBig/config"
 STYLE="$HOME/.config/hypr/wofi/style.css"
 COLORS="$HOME/.config/hypr/wofi/colors"
 
-sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i --conf ${CONFIG} --style ${STYLE} --color ${COLORS} | cut -d ' ' -f 1 | tr -d '\n' | wl-copy
+# wofi window config (in %)
+WIDTH=40
+HEIGHT=50
+
+sed '1,/^### DATA ###$/d' $0 | 
+wofi --show dmenu -i --conf ${CONFIG} --style ${STYLE} --color ${COLORS} --width=$WIDTH% --height=$HEIGHT% |
+cut -d ' ' -f 1 | tr -d '\n' | wl-copy
 
 exit
 
