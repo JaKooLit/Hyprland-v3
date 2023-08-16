@@ -1,2 +1,2 @@
 #!/bin/sh
-foot -e micro ~/.config/hypr/HelpFile.md
+mousepad ~/.config/hypr/HelpFile.md

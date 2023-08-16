@@ -7,10 +7,16 @@
 -   a.) nvidia-dkms nvidia-utils nvidia-settings libva libva-nvidia-driver-git are optional - These are applicable to those who wanted different different nvidia drivers as nvidia-dkms only support GTX 900 series or newer nvidia GPU's. Older gen nvidia owners, need to find a proper nvidia driver for your cards.
 -   b.) Optional GTK themes (Catppuccin or MacOS styles) - note that switching dark to light needs GTK themes. However, this is still optional
 
-### Whats new with these Hyprland configs?
-- Screenshot with swappy is now introduced
-- Clipboard Manager (cliphist)
-- scripts are renamed but functions are same as previous dotfiles
+### Whats new with this Hyprland-V3 configs?
+- From Hyprland-v2.1 dots added and changes are the following:
+- a.) Screenshot with swappy is now introduced
+- b.) Clipboard Manager (cliphist)
+- c.) scripts are renamed but functions are same as previous dotfiles
+- d.) Auto close of inactive apps (by default pavucontrol)
+- e.) Added emoji selector (super alt e) thanks to @U-L-M-S
+- f.) Added quick editor of configs using nano (super e)
+- g.) removal of micro in lieu of mousepad for opening of help file (super h) 
+
 
 ### Arch-Hyprland install script
 - IMPORTANT! DO NOT RUN THIS SCRIPT AS ROOT.

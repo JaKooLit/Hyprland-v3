@@ -2,6 +2,8 @@
 
 ### 16 Aug, 2023
 - replaced waybar-hyprland-git with waybar in install script
+- added emoji selector (super alt E)
+- added quick configs edit using nano (super E)
   
 ### 15 Aug, 2023
 - added AppAutoClose.sh. Script to add process to automatically close when not active. Thanks to @U-L-M-S
