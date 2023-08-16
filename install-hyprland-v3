@@ -308,28 +308,13 @@ for FONT in otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font
     fi
 done
 
-# Check if waybar or waybar-hyprland is installed
-if pacman -Qs waybar > /dev/null; then
-    read -n1 -rep "${CAT} waybar is already installed. Would you like to uninstall it and install waybar-hyprland-git? (y/n)" bar
-    echo
-    if [[ $bar =~ ^[Yy]$ ]]; then
-        sudo pacman -R --noconfirm waybar 2>> "$LOG" > /dev/null || true
-        sudo pacman -R --noconfirm waybar-hyprland 2>> "$LOG" > /dev/null || true
-        install_package waybar-hyprland-git 2>&1 | tee -a "$LOG"
+for BAR in waybar; do
+    install_package  "$BAR" 2>&1 | tee -a "$LOG"
         if [ $? -ne 0 ]; then
-            echo -e "\e[1A\e[K${ERROR} - waybar-hyprland-git install had failed, please check the install.log"
-            exit 1
-        fi
-    else
-        echo "You chose not to install waybar-hyprland-git."
-    fi
-else
-    install_package waybar-hyprland-git 2>&1 | tee -a "$LOG"
-    if [ $? -ne 0 ]; then
-        echo -e "\e[1A\e[K${ERROR} - waybar-hyprland-git install had failed, please check the install.log"
+        echo -e "\e[1A\e[K${ERROR} - $BAR install had failed, please check the install.log"
         exit 1
     fi
-fi
+done
 
 echo
 print_success "All necessary packages installed successfully."
