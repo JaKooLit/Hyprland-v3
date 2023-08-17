@@ -292,7 +292,7 @@ for PKG1 in foot swaybg swayidle swaylock-effects wofi wlogout mako grim slurp w
     fi
 done
 
-for PKG2 in qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs mpv python-requests pamixer brightnessctl xdg-user-dirs viewnior mpv network-manager-applet nano cava pavucontrol; do
+for PKG2 in qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs mpv python-requests pamixer brightnessctl xdg-user-dirs viewnior network-manager-applet nano cava pavucontrol; do
     install_package  "$PKG2" 2>&1 | tee -a "$LOG"
     if [ $? -ne 0 ]; then
         echo -e "\e[1A\e[K${ERROR} - $PKG2 install had failed, please check the install.log"
@@ -300,7 +300,7 @@ for PKG2 in qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs mpv python-requests pamixer
     fi
 done
 
-for FONT in otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono adobe-source-code-pro-fonts; do
+for FONT in otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono adobe-source-code-pro-fonts noto-fonts-emoji; do
     install_package  "$FONT" 2>&1 | tee -a "$LOG"
         if [ $? -ne 0 ]; then
         echo -e "\e[1A\e[K${ERROR} - $FONT install had failed, please check the install.log"
