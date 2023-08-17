@@ -1,6 +1,13 @@
 <h3 align = "center"> Arch Hyprland Dotfiles and Script Installer v3</h3>
 <br>
 
+![alt text](https://github.com/JaKooLit/Hyprland-v3/blob/main/screenshots/default.png "Default")
+
+See more screenshots in the screenshots folder
+you can also watch on the youtube link for a short show case [`Youtube Link`](https://youtu.be/mbQd0bJQ6a8)
+
+
+
 ### Changes from my previous dot-files
 - Dotfiles are based on my previous Hyprland dots and script is based on my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1)
 - Improvements on script
