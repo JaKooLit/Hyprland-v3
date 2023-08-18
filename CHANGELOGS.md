@@ -1,5 +1,8 @@
 ## Changelogs
 
+### 18 Aug, 2023
+- added nvtop (right click on cpu temp on waybar)
+
 ### 16 Aug, 2023
 - replaced waybar-hyprland-git with waybar in install script
 - added emoji selector (super alt E)
