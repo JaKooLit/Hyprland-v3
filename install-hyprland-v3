@@ -292,7 +292,7 @@ for PKG1 in foot swaybg swayidle swaylock-effects wofi wlogout mako grim slurp w
     fi
 done
 
-for PKG2 in qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs mpv python-requests pamixer brightnessctl xdg-user-dirs viewnior network-manager-applet nano cava pavucontrol; do
+for PKG2 in qt5ct btop nvtop jq gvfs gvfs-mtp ffmpegthumbs mpv python-requests pamixer brightnessctl xdg-user-dirs viewnior network-manager-applet nano cava pavucontrol; do
     install_package  "$PKG2" 2>&1 | tee -a "$LOG"
     if [ $? -ne 0 ]; then
         echo -e "\e[1A\e[K${ERROR} - $PKG2 install had failed, please check the install.log"
@@ -672,7 +672,8 @@ read -n1 -rep "${CAT} Would you like to copy config and wallpaper files? (y,n)" 
 if [[ $CFG =~ ^[Yy]$ ]]; then
 
 # check for existing config folders and backup 
-    for DIR in btop cava foot hypr mako swappy swaylock waybar wlogout wofi 
+    for DIR in 
+     cava foot hypr mako swappy swaylock waybar wlogout wofi 
     do 
         DIRPATH=~/.config/$DIR
         if [ -d "$DIRPATH" ]; then 
