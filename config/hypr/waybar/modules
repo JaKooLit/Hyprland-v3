@@ -41,6 +41,7 @@
   "format-icons": ["", "", "", "", ""],
   "format-time": "{H}h {M}min",
   "tooltip": true,
+  "tooltip-format": "{timeTo} {power}w",
   "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
   "on-click-right": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
 },
