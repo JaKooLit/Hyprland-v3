@@ -23,7 +23,8 @@ you can also watch on the youtube link for a short show case [`Youtube Link`](ht
 - e.) Added emoji selector (super alt e) thanks to @U-L-M-S
 - f.) Added quick editor of configs using nano (super e)
 - g.) removal of micro in lieu of mousepad for opening of help file (super h)
-- i.) added nvtop (for monitoring gpu resources usage) - right click on cpu temp on waybar 
+- i.) Added nvtop (for monitoring gpu resources usage) - right click on cpu temp on waybar
+- j.) Added wlsunset, however, disabled by default. Thanks to @yamanmucahit . Edit ~/.config/hypr/configs/Execs.conf to enable.
 
 
 ### Arch-Hyprland install script
