@@ -1,5 +1,8 @@
 ## Changelogs
 
+### 24 Aug, 2023
+- added wlsunset. Thanks to @yamanmucahit. Disabled by default. Edit ~/.config/hypr/config/Execs.conf if wanted
+  
 ### 18 Aug, 2023
 - added nvtop (right click on cpu temp on waybar)
 
