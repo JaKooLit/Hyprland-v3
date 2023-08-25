@@ -76,7 +76,7 @@ you can also watch on the youtube link for a short show case [`Youtube Link`](ht
 - clone this repo by using git. Change directory, make executable and run the script
 - git clone https://github.com/JaKooLit/Hyprland-v3 
 - cd Hyprland-v3 
-- chmod +× install-Hyprland-v3 
+- chmod +x install-hyprland-v3 
 - ./install-hyprland-v3
 
 - Optional stuff you can do using the script includes choices of the following:
