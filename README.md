@@ -56,10 +56,10 @@ you can also watch on the youtube link for a short show case [`Youtube Link`](ht
 ### Packages that will be installed when using the install script:
 - yay or paru (will be asked if not installed)
 - NVIDIA GPU (nvidia-dkms, hyprland-nvidia-git nvidia-settings nvidia-utils libva libva-nvidia-driver-git)
-- foot swaybg swaylock-effects wofi wlogout mako grim slurp wl-clipboard cliphist swappy polkit-kde-agent nwg-look-bin swww mousepad pipewire-alsa playerctl
+- foot swaybg swaylock-effects wofi wlogout mako grim slurp wl-clipboard cliphist swappy polkit-kde-agent nwg-look-bin swww mousepad pipewire-alsa playerctl wlsunset
 - qt5ct btop nvtop jq gvfs gvfs-mtp ffmpegthumbs python-requests pamixer brightnessctl xdg-user-dirs viewnior mpv network-manager-applet micro cava pavucontrol
 - otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono adobe-source-code-pro-fonts noto-fonts-emoji
-- waybar-hyprland-git
+- waybar
 
 ### Additional Wallpapers
 - More wallpapers can be downloaded from my Hyprland-v2.1 [`Link`](https://github.com/JaKooLit/Hyprland-v2.1/tree/main/wallpapers). Download and copy over to ~/Pictures/
