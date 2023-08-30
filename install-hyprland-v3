@@ -705,6 +705,10 @@ if [[ $CFG =~ ^[Yy]$ ]]; then
     mkdir -p ~/Pictures/wallpapers
     cp -r wallpapers ~/Pictures/ && { echo "Copy completed!"; } || { echo "Error: Failed to copy wallpapers."; exit 1; } 2>&1 | tee -a "$LOG"
 
+    # symlinks for waybar
+    ln -sf "$HOME/.config/hypr/waybar/configs/config-default" "$HOME/.config/hypr/waybar/config" && \
+    ln -sf "$HOME/.config/hypr/waybar/style/dark-styles/style-dark-cat.css"/style-dark.css" "$HOME/.config/hypr/waybar/style.css" && \
+
     # Set some files as executable 
     chmod +x ~/.config/hypr/scripts/* 2>&1 | tee -a "$LOG"
 else
