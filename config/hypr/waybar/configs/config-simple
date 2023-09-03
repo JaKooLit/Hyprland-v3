@@ -15,18 +15,19 @@
 
 "modules-left": [
 	"custom/menu", 
-	"wlr/workspaces"
+	//"wlr/workspaces",
+	"hyprland/workspaces",
 	],
 "modules-center": [
 	"clock",
-	"custom/light_dark"
+	"custom/light_dark",
 	],
 "modules-right": [
 	"backlight", 
 	"pulseaudio", 
 	"bluetooth", 
 	"network", 
-	"battery"
+	"battery",
 	],
 
 
