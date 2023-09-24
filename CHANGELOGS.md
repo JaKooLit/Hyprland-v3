@@ -1,5 +1,8 @@
 ## Changelogs
 
+### 25 Sep 2023
+- added nvidia-grub users function to add nvidia_drm.modeset=1 in /etc/default/grub
+
 ### 24 Aug, 2023
 - added wlsunset. Thanks to @yamanmucahit. Disabled by default. Edit ~/.config/hypr/config/Execs.conf if wanted
   
