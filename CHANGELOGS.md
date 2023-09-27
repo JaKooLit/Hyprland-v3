@@ -1,5 +1,9 @@
 ## Changelogs
 
+## 27-Sep-2023
+- remove auto start of portal-hyprland-hyprland
+- removal of Virtual-1 monitor in Monitors.conf
+
 ### 25 Sep 2023
 - added nvidia-grub users function to add nvidia_drm.modeset=1 in /etc/default/grub
 
