@@ -681,6 +681,12 @@ if [[ $CFG =~ ^[Yy]$ ]]; then
         fi
 
     done
+    
+    # to check if dark-style.css is present incase didnt opt to install GTK theme
+    if [ ! -f "config/hypr/waybar/style/style-dark.css" ]; then
+    # If it doesn't exist, copy the file from the source directory
+    cp "config/hypr/waybar/style/dark-styles/style-dark-cat.css" "config/hypr/waybar/style/style-dark.css"
+    fi
 
     printf " Copying config files...\n"
     mkdir -p ~/.config
