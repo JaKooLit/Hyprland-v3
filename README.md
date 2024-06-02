@@ -1,5 +1,7 @@
 # ATTENTION. Arch Hyprland Install Script has been moved to a newer and updated Script. [`CLICK`](https://github.com/JaKooLit/Arch-Hyprland) here for the link.
 
+03-June-2024
+- Archived in favor of https://github.com/JaKooLit/Arch-Hyprland
 
 <h3 align = "center"> Arch Hyprland Dotfiles and Script Installer v3</h3>
 <br>
